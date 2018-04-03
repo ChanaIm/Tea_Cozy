@@ -157,7 +157,7 @@ nav span {
 
 #locations {
   height: 500px;
-  background-image: url ("resources/images/img-locations-background.jpg" alt="coffee cup");
+  background-image: url("../images/img-locations-background.jpg");
   padding-top: 70px;
 }
 
