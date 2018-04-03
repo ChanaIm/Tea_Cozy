@@ -71,22 +71,18 @@ nav span {
 }
 
 #mission {
-  height: 700px;
-/* how to link to my local files?
-  background-image: url ("img-mission-background.jpg");
-  */
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px; /* if I remove this I can see other content, but still can not scroll */
+  background-image: url("../images/img-mission-background.jpg");
   padding-top: 70px;
   align-items: center;
 }
 
 #mission .content {
-  display: flex;
+/*  display: flex; */
   background-color: black;
   margin: auto;
   width: 100%;
 }
-
 
 .flex-container {
     display: flex;
@@ -111,8 +107,14 @@ nav span {
 
 /* Tea flavours */
 
-#featured-tea {}
-
+/*
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+*/
 
 .tea {
   padding: 5px;
@@ -173,7 +175,6 @@ nav span {
 }
 
 .footer {
-
 }
 
 .copyright {
