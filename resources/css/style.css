@@ -9,7 +9,9 @@ body {
   text-align: center;
 }
 
-a {}
+a {
+  color: white;
+}
 
 /* Header navigation bar */
 
@@ -29,6 +31,7 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
   align-items: center;
+  display: flex;
 }
 
 header img {
@@ -104,7 +107,6 @@ nav span {
   } */
 
 
-
 /* Tea flavours */
 
 /*
@@ -163,7 +165,7 @@ nav span {
   display: inline-block;
   width: 300px;
   padding: 15px;
-  margin: 40px;
+  margin: 10px;
   margin-top: 15px;
   background-color: black;
 }
