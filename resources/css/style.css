@@ -11,11 +11,13 @@ body {
 
 a {
   color: white;
+  text-decoration: underline;
 }
+
 
 /* Header navigation bar */
 
-/* not quite sure what this does yet tbc, has aligned the nab on to the same line as logo... yes! */
+/* not quite sure what this does yet tbc, has aligned the nav on to the same line as logo... yes! */
 .flex-container {
   display: flex;
   justify-content: center;
@@ -35,15 +37,9 @@ header {
 }
 
 header img {
-    height: 50px;
-    padding-left: 10px;
+  height: 50px;
+  padding-left: 10px;
 }
-
-/*
-.logo {
-  position: relative;
-  justify-content: center;
-} */
 
 .logo {
   display: flex;
@@ -63,25 +59,24 @@ nav span {
   padding: 20px 10px;
 }
 
-/* Main section */
 
+/* Main section */
 
 .main {
   padding-top: 69px;
-  /* opacity: 0.9; */
+  opacity: 0.9;
   width: 1200px;
   margin: auto;
 }
 
 #mission {
-  height: 700px; /* if I remove this I can see other content, but still can not scroll */
+  height: 700px;
   background-image: url("../images/img-mission-background.jpg");
   padding-top: 70px;
   align-items: center;
 }
 
 #mission .content {
-/*  display: flex; */
   background-color: black;
   margin: auto;
   width: 100%;
@@ -93,30 +88,16 @@ nav span {
     flex-wrap: wrap;
   }
 
-/*
-.image-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  } */
-
 
 /* Tea flavours */
 
-/*
+/*aka store */
 #featured-tea {
   height: 700px;
   width: 1000px;
   margin: auto;
   padding-top: 70px;
 }
-*/
 
 .tea {
   padding: 5px;
@@ -127,13 +108,10 @@ nav span {
   width: 300px;
   margin: 10px;
   display: block;
-  padding: 15px;
-  margin: 10px;
-  margin-top: 15px;
 }
 
 .tea span {
-  display: block; /* inline-block */
+  display: block;
   padding: 5px;
   font-weight: bold;
   text-align: center;
@@ -141,19 +119,6 @@ nav span {
 
 
 /* Locations */
-
-
-/*
-.address {
-  background-color: green;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  margin: 10px;
-} */
 
 #locations {
   height: 500px;
